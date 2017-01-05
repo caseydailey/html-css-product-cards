@@ -1,0 +1,71 @@
+body {
+	font-family: sans-serif;
+	font-size: 1em;
+}
+
+h1 {
+	text-align: center;
+}
+
+.card{
+	
+	float: right;
+	justify-content: center;
+    max-width: 30%;
+	border: 1px solid lightblue;
+	display: inline-block flex;
+	margin: 1.5%;
+	justify-content: center;
+
+}
+
+img {
+	display: block;
+	max-width: 30%;
+	margin-top: 50px;
+	margin: auto;
+}
+
+.title {
+	border: 1px dotted lightgray;
+	text-align: center;
+}
+
+.description {
+	text-align: justify;
+	padding: 0px 5px;
+}
+
+.specs {
+	font-size: .8em;
+	font-weight: bold;
+	padding: 1;
+	text-align: center;
+
+}
+
+.availability {
+	text-align: center;
+	background-color: darkgrey;
+	color: yellow;
+	max-width: 100%
+}
+
+.valid {
+	font-size: .8em;
+	margin-top: 5px;
+}
+
+.pricing {
+	font-size: .8em;
+	margin: 1;
+	padding: 1;
+}
+
+.pricing p {
+	display: inline-block;
+	max-width: 100%;
+	font-size: .8em;
+	margin: 1 5px;
+	padding: 1;
+}
